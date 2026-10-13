@@ -4,7 +4,7 @@ const prompt = promptSync()
 
 let nota = prompt("Ingrese su nota: ");
 
-if (nota >= 90 && nota < 100) {
+if (nota >= 90 && nota <= 100) {
     console.log("Su nota tiene clasificación de A.");
 } else if (nota >= 80 && nota <= 89) {
     console.log("Su nota tiene clasificación de B.");
